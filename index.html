@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>Mobile Store</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mobile Store</h1>
+    </header>
+
+    <main>
+
+        <form id="form">
+            <fieldset>
+
+                <label for="user">User</label>
+                <br>
+                <input type="text" name="user" id="user" required>
+                <br><br>
+
+                <label for="type">Type</label>
+                <br>
+                <select name="type" id="type">
+                    <option>Samsung</option>
+                    <option>Apple</option>
+                    <option>Huawei</option>
+                </select>
+                <br><br><br>
+
+                <input type="submit" id="submit">
+
+            </fieldset>
+        </form>
+
+        <table id="table">
+            <tr>
+                <th>User</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Condition</th>
+            </tr>
+            
+
+        </table>
+        <button type="reset" value="Reset" id="clear">Clear</button>
+
+
+
+    </main>
+
+
+
+
+    <footer>
+        &copy;2021 ASAC
+        <hr>
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
